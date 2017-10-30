@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "bwg-mobile",
+    "description": "An empty new project",
+    "slug": "bwg-mobile",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/bwglogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
