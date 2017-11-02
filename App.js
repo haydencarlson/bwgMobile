@@ -21,7 +21,7 @@ export default class App extends React.Component {
   render() {
     const { isLoading } = this.state;
     return (
-      <View style={{backgroundColor: '#000000', flex:1}}>
+      <View style={{backgroundColor: '#000000', flex:1, justifyContent: 'center'}}>
         {(!this.state.isLoading) ? null : <LoadingScreen />}
         <WebView
           source={{uri: 'https://www.bwgforums.com'}}

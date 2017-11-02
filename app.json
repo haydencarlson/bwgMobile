@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "bwg-mobile",
-    "description": "An empty new project",
+    "name": "BWGForums",
+    "description": "Mobile app for BWG Forums",
     "slug": "bwg-mobile",
     "privacy": "public",
     "sdkVersion": "22.0.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/icon.png",
@@ -18,7 +18,14 @@
       "assetExts": ["ttf", "mp4"]
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bwg.forums"
+    },
+    "android": {
+      "package": "com.bwg.forums",
+      "versionCode": "4",
+      "permissions": []
+
     }
   }
 }
